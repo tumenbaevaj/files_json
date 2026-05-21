@@ -14,10 +14,12 @@ import java.util.zip.ZipInputStream;
 public class ZipParsingTestWithComments {
 
     private ClassLoader cl = ZipParsingTestWithComments.class.getClassLoader();
+
     // помогает доставать файлы из папки resources,
     // cl.getResourceAsStream("homework.zip") - Java ищет файл в src/test/resources/homework.zip
     @Test
     void zipFileParsingTest() throws Exception {
+        // этот вариант не делит на 3 независимых теста
         // try (...) { } - после окончания теста Java сама закроет файл
         // ZipInputStream - поток для чтения zip-архив
         // throws Exception - если будет ошибка при чтении файла, Java может её выбросить
