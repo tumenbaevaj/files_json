@@ -1,0 +1,11 @@
+{
+  "brand": "Apple",
+  "model": "iPhone 15",
+  "price": "1000",
+  "available": "true",
+  "colors": [
+    "black",
+    "white",
+    "gold"
+  ]
+}
