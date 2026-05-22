@@ -1,4 +1,4 @@
-package homework;
+package notes;
 
 import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
